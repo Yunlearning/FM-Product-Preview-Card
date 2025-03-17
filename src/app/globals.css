@@ -12,6 +12,34 @@
   --font-mono: var(--font-geist-mono);
 }
 
+@theme {
+  --breakpoint-mobile: 0px;
+  --breakpoint-tablet: 616px;
+  --breakpoint-desktop: 1440px;
+  --spacing-mobile:350px;
+  --spacing-tablet:600px;
+  --spacing-desktop:600px;
+  --font-fraunces: var(--font-fraunces);
+  --font-montserrat: var(--font-montserrat);
+  --color-card-green-500: hsl(158, 36%, 37%);
+  --color-card-green-700: hsl(158, 42%, 18%);
+  --color-card-black: hsl(212,21%,14%);
+  --color-card-grey: hsl(158,42%,18%);
+  --color-card-cream:hsl(30,38%,92%);
+  --color-card-white: hsl(0,0%,100%);
+  --text-card-1: 32px;
+  --text-card-2: 14px;
+  --text-card-3: 12px;
+  --text-card-4: 13px;
+  --spacing-card-1:1;
+  --spacing-card-2:1.1;
+  --spacing-card-3:1.6;
+  --spacing-card-4:1.2;
+  --tracking-card-1:0;
+  --tracking-card-2:5px;
+
+}
+
 @media (prefers-color-scheme: dark) {
   :root {
     --background: #0a0a0a;
