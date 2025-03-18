@@ -41,9 +41,8 @@ export default function Card() {
                         <p className="line-through font-montserrat text-card-4 leading-card-4 tracking-card-1">$169.99</p>
                     </li>
                     <li>
-                        <button className="
-                        mobile:w-[286px] tablet:w-[236px]
-                        h-[50px] bg-card-green-500 text-card-white font-montserrat font-bold text-card-2 leading-card-2 tracking-card-1 rounded-[8px]
+                        <button className="w-full h-[50px] 
+                        bg-card-green-500 text-card-white font-montserrat font-bold text-card-2 leading-card-2 tracking-card-1 rounded-[8px]
                         flex items-center justify-center gap-2
                         cursor-pointer hover:bg-card-green-700
                         ">
